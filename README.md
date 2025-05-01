@@ -1,7 +1,3 @@
-Here's a simple and clean `README.md` for your **Tic Tac Toe Windows Forms App**:
-
----
-
 # 🎮 Tic Tac Toe - Windows Forms Application
 
 This is a classic **Tic Tac Toe** game implemented using **C#** and **Windows Forms**. It features a neat centered UI with dynamic resizing and a turn indicator. The game automatically detects wins and draws, and shows a popup message when the game ends.
@@ -49,9 +45,6 @@ This is a classic **Tic Tac Toe** game implemented using **C#** and **Windows Fo
 - Turn is switched after every valid move.
 - Win and draw logic checks are performed after each move.
 
-## 📷 Screenshot
-
-*(Add a screenshot of the game running here)*
 
 ## 🛠️ Future Improvements
 
@@ -61,8 +54,4 @@ This is a classic **Tic Tac Toe** game implemented using **C#** and **Windows Fo
 
 ## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
-Would you like a logo/banner or a screenshot preview included as well?
+This project is open source and available under the [MIT License](https://chatgpt.com/c/LICENSE).
