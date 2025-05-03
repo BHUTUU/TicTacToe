@@ -13,10 +13,6 @@ A modern, fully-featured **Tic Tac Toe** game built using **C#** and **Windows F
 * 🔁 Automatic restart after game ends
 * 💻 Optional **"Play with Computer"** mode (basic AI)
 * ⏪ **Undo/Redo** functionality with buttons and shortcuts (`Ctrl+Z`, `Ctrl+Y`)
-* 🔊 Simple sound feedback (system beep)
-* 🧾 Game history log and winner announcements
-* 📋 Popup viewer for game log
-* 🧹 Scoreboard reset support
 
 ---
 
