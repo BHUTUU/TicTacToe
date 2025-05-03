@@ -31,16 +31,26 @@ A modern, fully-featured **Tic Tac Toe** game built using **C#** and **Windows F
 
 ## 🚀 Getting Started
 
-### Prerequisites
+### Prerequisites (For Source Build)
 
-* Visual Studio (with **.NET Desktop Development** workload)
-* .NET Framework or .NET SDK installed
+* Visual Studio with **.NET Desktop Development** workload
+* .NET Framework or SDK installed
 
-### Running the App
+### Running from Source
 
 1. Clone or download this repository.
 2. Open the solution in **Visual Studio**.
 3. Press `F5` to build and run.
+
+---
+
+## 📦 Installation
+
+You can download the latest setup file from the [Releases](../../releases) page.
+
+🔽 **[Download: TicTacToe\_v1.0.2\_x64\_Setup.exe](../../releases/download/v1.0.2/TicTacToe_v1.0.2_x64_Setup.exe)**
+
+> Simply run the installer and launch the game from the Start menu or desktop shortcut.
 
 ---
 
