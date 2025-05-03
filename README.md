@@ -48,7 +48,7 @@ A modern, fully-featured **Tic Tac Toe** game built using **C#** and **Windows F
 
 You can download the latest setup file from the [Releases](../../releases) page.
 
-🔽 **[Download: TicTacToe\_v1.0.2\_x64\_Setup.exe](../../releases/download/v1.0.2/TicTacToe_v1.0.2_x64_Setup.exe)**
+🔽 **[Download: TicTacToe\_v1.0.2\_x64\_Setup.exe](https://github.com/BHUTUU/TicTacToe/releases/download/TicTacToe_v1.0.2/TicTacToe_v1.0.2_x64_Setup.exe)**
 
 > Simply run the installer and launch the game from the Start menu or desktop shortcut.
 
