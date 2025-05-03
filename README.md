@@ -1,6 +1,6 @@
 # 🎮 Tic Tac Toe - Windows Forms Application
 
-A modern, fully-featured **Tic Tac Toe** game built using **C#** and **Windows Forms**. It offers a polished UI, intelligent undo/redo, optional computer opponent, sound feedback, and game logging — making it more than just the classic version.
+A modern, fully-featured **Tic Tac Toe** game built using **C#** and **Windows Forms**. It offers a polished UI, intelligent undo/redo and optional computer opponent — making it more than just the classic version.
 
 ---
 
