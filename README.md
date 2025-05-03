@@ -21,7 +21,6 @@ A modern, fully-featured **Tic Tac Toe** game built using **C#** and **Windows F
 * **C#**
 * **Windows Forms (.NET)**
 * **GDI+** for custom drawing (grid, X, O)
-* **System.Media** for sound effects (beep)
 
 ---
 
