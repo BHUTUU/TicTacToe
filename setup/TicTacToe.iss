@@ -4,10 +4,10 @@
 [Setup]
 ; Basic Setup Information
 AppName=Tic Tac Toe
-AppVersion=1.0.0
+AppVersion=1.0.2
 DefaultDirName={localappdata}\Tic Tac Toe
 DefaultGroupName=Tic Tac Toe
-OutputBaseFilename=TicTacToe_v1.0.0_x64_Setup
+OutputBaseFilename=TicTacToe_v1.0.2_x64_Setup
 OutputDir=.
 PrivilegesRequired=lowest
 Compression=lzma2
