@@ -1,56 +1,92 @@
 # 🎮 Tic Tac Toe - Windows Forms Application
 
-This is a classic **Tic Tac Toe** game implemented using **C#** and **Windows Forms**. It features a neat centered UI with dynamic resizing and a turn indicator. The game automatically detects wins and draws, and shows a popup message when the game ends.
+A modern, fully-featured **Tic Tac Toe** game built using **C#** and **Windows Forms**. It offers a polished UI, intelligent undo/redo, optional computer opponent, sound feedback, and game logging — making it more than just the classic version.
+
+---
 
 ## 🖼️ Features
 
-- Smooth, centered 3x3 grid UI
-- Turn indicator label showing whose move it is (`X` or `O`)
-- Click-based cell selection
-- Win and draw detection
-- Winner popup with automatic restart
-- Fully resizable window layout
+* ✨ Smooth, centered 3x3 grid UI (dynamically resizes with window)
+* 🔄 Turn indicator label for current player (`X` or `O`)
+* 🖱️ Mouse click to make moves
+* ✅ Win and draw detection with popup announcements
+* 🔁 Automatic restart after game ends
+* 💻 Optional **"Play with Computer"** mode (basic AI)
+* ⏪ **Undo/Redo** functionality with buttons and shortcuts (`Ctrl+Z`, `Ctrl+Y`)
+* 🔊 Simple sound feedback (system beep)
+* 🧾 Game history log and winner announcements
+* 📋 Popup viewer for game log
+* 🧹 Scoreboard reset support
+
+---
 
 ## 💻 Technologies Used
 
-- **C#**
-- **.NET Windows Forms**
-- **GDI+ Drawing API** for custom grid rendering
+* **C#**
+* **Windows Forms (.NET)**
+* **GDI+** for custom drawing (grid, X, O)
+* **System.Media** for sound effects (beep)
+
+---
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
-- Visual Studio (with .NET Desktop Development workload)
-- .NET Framework or .NET SDK installed
+* Visual Studio (with **.NET Desktop Development** workload)
+* .NET Framework or .NET SDK installed
 
 ### Running the App
 
-1. Clone or download the repository.
-2. Open the solution/project in **Visual Studio**.
-3. Build and run (`F5`).
+1. Clone or download this repository.
+2. Open the solution in **Visual Studio**.
+3. Press `F5` to build and run.
 
-### How to Play
+---
 
-- The game starts with **X**.
-- Players take turns clicking on the grid.
-- If a player gets 3 in a row (horizontally, vertically, or diagonally), a popup will announce the winner.
-- If all cells are filled and no one wins, it's a draw.
-- The game restarts automatically after win or draw.
+## 🎮 How to Play
+
+* Game starts with player **X**.
+* Click on a cell to make a move.
+* Player with 3 consecutive marks (row/column/diagonal) wins.
+* If all cells are filled and no winner, it's a **draw**.
+* **Optional:** Check the "Play with Computer" box to play against a simple AI.
+* Game auto-restarts after a win or draw.
+* Use **Undo/Redo** via:
+
+  * Buttons at the top-right corner
+  * Keyboard shortcuts: `Ctrl+Z` (Undo), `Ctrl+Y` (Redo)
+
+---
 
 ## 🧠 Logic Summary
 
-- Grid and symbols are drawn manually using GDI+.
-- The board is stored as a 2D `string[,]` array.
-- Turn is switched after every valid move.
-- Win and draw logic checks are performed after each move.
+* The board is stored as a 2D array `string[,] board`.
+* Each cell click triggers game logic:
 
+  * Save state for undo
+  * Update board
+  * Check win/draw
+  * Switch turns
+* The **computer AI**:
+
+  * First tries to win
+  * Then blocks opponent's win
+  * Otherwise picks first available cell
+* **Undo/Redo** stacks track board history
+* Grid and symbols drawn using **GDI+**
+* Score and game logs stored and optionally displayed
+
+---
 
 ## 🛠️ Future Improvements
 
-- Add a **Restart** button in the popup instead of auto-reset
-- Add score tracking
-- Add option to play against the computer (AI)
+* Add difficulty levels for AI
+* Save/load scoreboard and game history between sessions
+* Sound toggle option in UI
+* Add multiplayer over LAN
+
+---
 
 ## 📄 License
 
